@@ -3,8 +3,8 @@
     <nav
       class="
         container
-        px-6
-        py-6
+        px-3
+        py-4
         mx-auto
         md:flex md:justify-between md:items-center
       "
@@ -51,7 +51,7 @@
         "
       >
         <li class="inline-block  rounded text-gray-100 hover:bg-gray-500 py-2 px-4 transition duration-700 delay-750 hover:delay-2">Projects</li>
-        <li class="inline-block  rounded text-gray-100 hover:bg-gray-500 py-2 px-4 transition duration-700 delay-750 hover:delay-2">About</li>
+        <!-- <li class="inline-block  rounded text-gray-100 hover:bg-gray-500 py-2 px-4 transition duration-700 delay-750 hover:delay-2">About</li> -->
       </ul>
     </nav>
   </div>
