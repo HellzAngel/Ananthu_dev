@@ -8,8 +8,6 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
                     </button>
                 </div>
-            <div class="hidden md:flex md:justify-end md:flex-row pb-4 md:pb-0 ml-3 mr-3 md:m-0 sm:items-stretch sm:justify-start">
-                </div>
             </div>
         </nav>
     </div>
