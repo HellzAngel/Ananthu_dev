@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-600">
+  <div class="bg-gray-600 dark:bg-slate-900">
     <nav
       class="
         container
@@ -50,8 +50,11 @@
           md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
         "
       >
-        <li class="inline-block rounded-full text-gray-100 hover:bg-gray-500 py-2 px-4 transition duration-700 delay-750 hover:delay-2">Projects</li>
-        <li class="inline-block  rounded-full text-gray-100 hover:bg-gray-500 py-2 px-2 transition duration-700 delay-750 hover:delay-2" @click="toggleDarkMode">
+      
+        <li class="inline-block font-semibold rounded-full text-gray-100 hover:bg-gray-500 py-2 px-4 transition duration-700 delay-750 hover:delay-2">Projects
+            <span class="relative animate-ping inline-flex bottom-2 rounded-full h-1.5 w-1.5 bg-red-500"></span>
+        </li>
+        <li class="inline-block rounded-full text-gray-100 hover:bg-gray-500 py-2 px-2 transition duration-700 delay-750 hover:delay-2" @click="toggleDarkMode">
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd">
             </path>
