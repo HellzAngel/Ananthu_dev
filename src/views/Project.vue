@@ -1,18 +1,33 @@
 <template>
-  <div class="flex flex-wrap">
-    <div class="w-full rounded-full">
-      <ul class="flex mb-0  list-none flex-wrap pt-3 pb-4 flex-row">
-        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
-          <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-600 bg-white': openTab !== 1, 'text-white bg-gray-600': openTab === 1}">
-            GitHub
-          </a>
-        </li>
-        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
-          <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-600 bg-white': openTab !== 2, 'text-white bg-gray-600': openTab === 2}">
-            Live
-          </a>
-        </li>
-      </ul>
+  <div class="w-full flex-wrap">
+    <div class="min-h-screen
+              dark:bg-gray-900 
+                items-center">
+      <h1 class="text-center 
+                 font-nav 
+                 text-xl 
+                 font-extrabol
+                 text-gray-500 
+                 h-1 m-5"
+                 >
+                 My projects
+        </h1>
+      <div class="font-about">
+        <div class="mx-10 md:mx-16 lg:mx-96 flex p-1 rounded-xl"> 
+          <ul class="flex min-w-full md:space-y-0 flex-wrap pt-3 pb-4 flex-row">
+            <li class="-mb-px font-semibold rounded-full mr-2 w-2 last:mr-0 flex-auto text-center">
+              <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-600 bg-white': openTab !== 1, 'text-white bg-gray-600': openTab === 1}">
+                GitHub
+              </a>
+            </li>
+            <li class="-mb-px font-semibold mr-2 w-2 last:mr-0 flex-auto text-center">
+              <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-600 bg-white': openTab !== 2, 'text-white bg-gray-600': openTab === 2}">
+                Live
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
         <div class="px-4 py-5 flex-auto">
           <div class="tab-content tab-space">
