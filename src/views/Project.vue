@@ -33,11 +33,10 @@
           <div class="tab-content tab-space">
             <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
             <div>
-                <ul v-for="post in posts" v-bind:key="post">
-                  <li class="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <ul class="grid grid-cols-3 gap-4">
+                  <li v-for="post in posts" v-bind:key="post" class="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                       {{post.name}}
                       {{post.fork}}
-
                     </li>
                   </ul>
               
