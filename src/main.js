@@ -6,7 +6,6 @@ import VueAxios from 'vue-axios'
 import router from './routes' 
 
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')
 App.provide('axios', App.config.globalProperties.axios)  // provide 'axios'
 App.use(VueAxios, axios)
-App.use(router)

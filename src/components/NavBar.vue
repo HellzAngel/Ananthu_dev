@@ -1,4 +1,5 @@
 <template>
+<div id="app">
   <div class="bg-gray-600 dark:bg-slate-900">
     <nav
       class="
@@ -11,7 +12,7 @@
     >
       <div class="flex items-center justify-between">
         <router-link
-          to="/"
+          to="/project"
           class="
             text-xl
             font-semibold 
@@ -66,7 +67,7 @@
                     duration-700 
                     delay-750 
                     hover:delay-2"
-                    >Projects
+                    ><router-link to="/project">Projects</router-link>
             <span class="relative 
                           animate-ping 
                           inline-flex 
@@ -96,7 +97,7 @@
       </ul>
     </nav>
   </div>
-  <router-view/>
+</div>
 </template>
 <script>
 import { ref } from 'vue'; 

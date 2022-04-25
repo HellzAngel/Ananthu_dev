@@ -3,6 +3,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Project from "../views/Project.vue"
 
 const routes = [
+    // {
+    //     path: "/",
+    //     name: "Home",
+    //     component: Project,
+    //   },
     {
       path: "/project",
       name: "Project",
