@@ -15,12 +15,12 @@
       <div class="font-about">
         <div class="mx-10 md:mx-16 lg:mx-96 flex p-1 rounded-xl"> 
           <ul class="flex min-w-full md:space-y-0 flex-wrap pt-3 pb-4 flex-row">
-            <li class="-mb-px font-semibold rounded-full mr-2 w-2 last:mr-0 flex-auto text-center">
+            <li class="-mb-px font-semibold rounded-full mr-2 w-2 hover:animate-pulse last:mr-0 flex-auto text-center">
               <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-600 bg-white': openTab !== 1, 'text-white bg-gray-600': openTab === 1}">
                 GitHub
               </a>
             </li>
-            <li class="-mb-px font-semibold mr-2 w-2 last:mr-0 flex-auto text-center">
+            <li class="-mb-px font-semibold mr-2 w-2 last:mr-0 hover:animate-pulse flex-auto text-center">
               <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-600 bg-white': openTab !== 2, 'text-white bg-gray-600': openTab === 2}">
                 Live
               </a>
