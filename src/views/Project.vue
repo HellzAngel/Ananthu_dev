@@ -34,11 +34,12 @@
             <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
             <div>
                 <ul class="grid grid-cols-1 md:grid-cols-3 gap-4 m-10">
-                  <li v-for="post in posts" v-bind:key="post">
-                      <a href={{post.html_url}}></a>
+                  <li v-for="post in posts" v-bind:key="post" class="hover:animate-bounce p-2">
+                    <a :href="post.html_url">
                       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">
                         <div class="flex gap-6 justify-between p-4">
                           <div>
+                            <a :href="post.html_url"></a>
                             <h1 class="text-md text-gray-600 dark:text-gray-200 font-semibold mb-3">{{post.name}}</h1>
                               <p class="text-gray-600 dark:text-gray-400 tracking-normal text-sm">
                                 {{post.description}}</p>
@@ -60,16 +61,17 @@
                                 </div>
                               </div>
                             </div>
+                          </a>
                     </li>
                   </ul>
               
             </div>
             </div>
             <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
-              <p>
-                Completely synergize resource taxing relationships via
-                ce.
-              </p>
+                <ul class="grid grid-cols-1 md:grid-cols-3 gap-4 m-10">
+                  <li class="hover:animate-bounce p-2 ">
+                  </li>
+                </ul>         
             </div>
           </div>
         </div>
