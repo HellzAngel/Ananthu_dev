@@ -28,7 +28,7 @@
           </ul>
         </div>
       </div>
-      <div class="relative flex flex-col min-w-0 break-words bg-gray-100 w-full mb-6 shadow-lg rounded">
+      <div class="relative flex flex-col min-w-0 break-words bg-gray-100 w-full mb-6">
         <div class="px-4 py-5 flex-auto">
           <div class="tab-content tab-space">
             <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
@@ -68,7 +68,7 @@
             </div>
             </div>
             <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
-                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 m-20">
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 m-10">
                   <li class="hover:animate-pulse p-2 ">
                     <a href="https://obscure-bayou-69189.herokuapp.com/">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">

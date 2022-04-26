@@ -12,7 +12,7 @@
     >
       <div class="flex items-center justify-between">
         <router-link
-          to="/project"
+          to="/"
           class="
             text-xl
             font-semibold 
