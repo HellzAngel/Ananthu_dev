@@ -68,8 +68,28 @@
             </div>
             </div>
             <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
-                <ul class="grid grid-cols-1 md:grid-cols-3 gap-4 m-10">
-                  <li class="hover:animate-bounce p-2 ">
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 m-20">
+                  <li class="hover:animate-pulse p-2 ">
+                    <a href="https://obscure-bayou-69189.herokuapp.com/">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">
+                      <div class="grid grid-cols-1 gap-1 justify-between p-4">
+                        <h1 class="text-md text-gray-600 dark:text-gray-200 font-semibold mb-3">Movie Search App</h1>
+                          <p class="text-gray-600 dark:text-gray-400 tracking-normal text-sm">
+                            Made with react JS</p>
+                      </div>
+                    </div>   
+                    </a> 
+                  </li>
+                  <li class="hover:animate-pulse p-2 ">
+                    <a href="https://hellzangel.github.io/portfolio/">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">
+                      <div class="grid grid-cols-1 gap-1 justify-between p-4">
+                        <h1 class="text-md text-gray-600 dark:text-gray-200 font-semibold mb-3">POTFOLIO</h1>
+                          <p class="text-gray-600 dark:text-gray-400 tracking-normal text-sm">
+                            Made with HTML & CSS</p>
+                      </div>
+                    </div> 
+                    </a>   
                   </li>
                 </ul>         
             </div>
