@@ -35,7 +35,7 @@
                     <img src="../assets/html.svg" class="w-20 h-20">
                 </div>
                 <div class="tag hover:animate-pulse">
-                    <img src="../assets/logo.svg" class=" w-20 h-20">
+                    <img src="../assets/vue.svg" class=" w-20 h-20">
                 </div>
                 <div class="tag hover:animate-pulse">
                     <img src="../assets/py.svg" class="w-20 h-20">
