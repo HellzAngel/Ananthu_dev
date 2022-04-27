@@ -3,7 +3,7 @@
                     px-4
                     py-4 
                     bg-gray-100 
-                    bottom-1 m-3">
+                    bottom-1">
                 <h1 class="font-mono font-semibold text-xl dark:text-gray-500 text-gray-700">
                     Contact me
                 </h1> 
