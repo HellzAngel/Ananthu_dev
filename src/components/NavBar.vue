@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <div class="bg-gray-600 dark:bg-slate-900">
+  <div class="bg-gray-900 dark:bg-slate-900">
     <nav
       class="
         container
@@ -12,7 +12,7 @@
     >
       <div class="flex items-center justify-between">
         <router-link
-          to="/Ananthu_dev"
+          to="/Ananthu_dev/"
           class="
             text-xl
             font-semibold 
