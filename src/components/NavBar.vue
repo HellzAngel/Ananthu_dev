@@ -12,7 +12,7 @@
     >
       <div class="flex items-center justify-between">
         <router-link
-          to="/"
+          to="/Ananthu_dev"
           class="
             text-xl
             font-semibold 
