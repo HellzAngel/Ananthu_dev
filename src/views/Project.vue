@@ -34,7 +34,7 @@
             <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
             <div>
                 <ul class="grid grid-cols-1 md:grid-cols-3 gap-4 m-10">
-                  <li v-for="post in posts" v-bind:key="post" class="hover:animate-bounce p-2">
+                  <li v-for="post in posts" v-bind:key="post" class="animate__animated animate__flipInX hover:animate-bounce p-2">
                     <a :href="post.html_url">
                       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">
                         <div class="flex gap-6 justify-between p-4">
@@ -69,7 +69,7 @@
             </div>
             <div v-bind:class="{'hidden': openTab !== 2, 'block': openTab === 2}">
                 <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 m-10">
-                  <li class="hover:animate-pulse p-2 ">
+                  <li class="animate__animated animate__flipInX hover:animate-pulse p-2 ">
                     <a href="https://obscure-bayou-69189.herokuapp.com/">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">
                       <div class="grid grid-cols-1 gap-1 justify-between p-4">
@@ -80,7 +80,7 @@
                     </div>   
                     </a> 
                   </li>
-                  <li class="hover:animate-pulse p-2 ">
+                  <li class="animate__animated animate__flipInX hover:animate-pulse p-2 ">
                     <a href="https://hellzangel.github.io/portfolio/">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">
                       <div class="grid grid-cols-1 gap-1 justify-between p-4">

@@ -1,18 +1,18 @@
 <template>
     <div class="m-6 mb-10 lg:m-10 lg:mt-8 lg:mb-0 lg:pt-2">
-        <p class="flex text-2xl lg:text-3xl font-mono  font-semibold dark:text-gray-500 text-gray-700" >Hi There!
-            <span class="animate-waving-hand">👋🏻
-            </span>
-        </p>      
-        <p class="font-body pt-2 text-xl font-bold font-mono dark:text-gray-500 text-gray-700">
+            <p class="animate__animated animate__fadeInDown flex text-2xl lg:text-3xl font-mono  font-semibold dark:text-gray-500 text-gray-700" >Hi There!
+                <span class="animate-waving-hand">👋🏻
+                </span>
+            </p>   
+        <p class="animate__animated animate__fadeInDown font-body pt-2 text-xl font-bold font-mono dark:text-gray-500 text-gray-700">
             Ananthu here,
         </p>
-        <p class="font-body pt-2 font-bold font-mono text-sm dark:text-gray-500 text-gray-700">
+        <p class="animate__animated animate__fadeInDown font-body pt-2 font-bold font-mono text-sm dark:text-gray-500 text-gray-700">
             Full Stack Developer From INDIA
         </p>
     </div>
     <div class="m-7 mt-10 grid md:grid-cols-2 lg:m-10 lg:mt-6">
-        <div class="lg:pt-8 m-1">
+        <div class="animate__animated animate__fadeInLeft lg:pt-8 m-1">
             <h1 class="font-mono font-semibold text-xl dark:text-gray-500 text-gray-700">
                 About me
             </h1>
@@ -65,3 +65,6 @@
         </div>
     </div>
 </template>
+<style>
+    
+</style>
