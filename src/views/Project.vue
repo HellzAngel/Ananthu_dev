@@ -121,7 +121,6 @@ export default {
     .then(response => {
       // JSON responses are automatically parsed.
       this.posts = response.data
-      console.log(this.posts)
     })
     .catch(e => {
       this.errors.push(e)

@@ -10,23 +10,40 @@
                 <div class="grid grid-cols-2 gap-1 lg:pt-8 m-1 ">
                     <div class="grid grid-cols-2 gap-1 ">
                             <div class="grid grid-cols-2 gap-1 ">
+                                
                                 <div class="animate__animated animate__fadeInLeft tag mx-auto">
-                                    <img src="../assets/insta.svg" class="w-10 h-10">
+                                    <a href="https://www.instagram.com/_hellzi/">
+                                         <img src="../assets/insta.svg" class="w-10 h-10">
+                                    </a>
                                 </div>
+                                
+                                
                                 <div class="animate__animated animate__fadeInLeft tag">
+                                    <a href="https://github.com/HellzAngel">
                                         <img src="../assets/github.svg" class="w-10 h-10">
-                                </div>                
+                                     </a>  
+                                </div> 
+                                      
+                                     
                                 <div class="animate__animated animate__fadeInLeft tag mx-auto">
+                                     <a href="https://www.facebook.com/actionherorio">  
                                         <img src="../assets/linked.svg" class="w-10 h-10">
+                                    </a>
                                 </div>
+                                 
+                                
                                 <div class="animate__animated animate__fadeInLeft tag">
+                                    <a href="https://www.linkedin.com/in/ananthu-a-nair-bb1571175/">   
                                         <img src="../assets/facebook.svg" class=" w-10 h-10">
+                                    </a>
                                 </div>
                             </div>
                     </div>
                     <div class="animate__animated animate__fadeInRight flex justify-end">
                         <div class="tag">
-                            <img src="../assets/mail.svg" class="w-10 h-10">
+                            <a href="`mailto:${ananthua.nair34@gmail.com}`">
+                                <img src="../assets/mail.svg" class="w-10 h-10">
+                            </a>
                         </div>
                     </div>   
                 </div>
