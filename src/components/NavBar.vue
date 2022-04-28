@@ -67,7 +67,7 @@
                     duration-700 
                     delay-750 
                     hover:delay-2"
-                    ><router-link to="/project">Projects</router-link>
+                    ><router-link to="/Ananthu_dev/project">Projects</router-link>
             <span class="relative 
                           animate-ping 
                           inline-flex 

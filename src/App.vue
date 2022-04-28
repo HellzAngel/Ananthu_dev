@@ -8,6 +8,9 @@ import Social from './components/social.vue'
     <NavBar/>
     <router-view />
     <Social/>
-    <Footer/>
   </div>
+    <footer class="main-wrapper bg-gray-900 dark:bg-gray-900 mr-auto mx-auto">
+        <Footer/>
+    </footer>
+
 </template>

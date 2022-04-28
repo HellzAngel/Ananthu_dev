@@ -10,7 +10,7 @@ const routes = [
         component: Home,
       },
     {
-      path: "/project",
+      path: "/Ananthu_dev/project",
       name: "Project",
       component: Project,
     },
