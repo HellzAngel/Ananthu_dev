@@ -33,14 +33,14 @@
           <div class="tab-content tab-space">
             <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
             <div>
-                <ul class="grid grid-cols-1 md:grid-cols-3 gap-4 m-10">
-                  <li v-for="post in posts" v-bind:key="post" class="animate__animated animate__flipInX hover:animate-bounce p-2">
+                <ul class="grid grid-cols-1 md:grid-cols-3 gap-5 m-6">
+                  <li v-for="post in posts" v-bind:key="post" class="animate__animated animate__flipInX hover:animate-bounce p-1">
                     <a :href="post.html_url">
                       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition duration-500">
                         <div class="flex gap-6 justify-between p-4">
                           <div>
                             <a :href="post.html_url"></a>
-                            <h1 class="text-md text-gray-600 dark:text-gray-200 font-semibold mb-3">{{post.name}}</h1>
+                            <h1 class="text-md text-gray-600 dark:text-gray-200 tracking-normalfont-semibold mb-2">{{post.name}}</h1>
                               <p class="text-gray-600 dark:text-gray-400 tracking-normal text-sm">
                                 {{post.description}}</p>
                                 </div>
