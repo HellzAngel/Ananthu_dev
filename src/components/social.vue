@@ -41,7 +41,9 @@
                     </div>
                     <div class="animate__animated animate__fadeInRight flex justify-end">
                         <div class="tag hover:animate-pulse">
+                            <a href="mailto:ananthua.nair34@example.com">
                                 <img src="../assets/mail.svg" class="w-10 h-10">
+                            </a>
                         </div>
                     </div>   
                 </div>

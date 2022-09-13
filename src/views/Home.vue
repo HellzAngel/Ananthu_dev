@@ -58,7 +58,7 @@
                 <div class="tag hover:animate-pulse">
                     <img src="../assets/post.svg" class="w-20 h-20">
                 </div>
-                <div class="tag hover:animate-pulse">
+                <div class="tag hover:animate-pulse">       
                     <img src="../assets/dj.svg" class="w-20 h-20">
                 </div>
             </div>
