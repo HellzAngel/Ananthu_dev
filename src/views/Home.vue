@@ -8,7 +8,7 @@
             Ananthu here,
         </p>
         <p class="animate__animated animate__fadeInDown font-body pt-2 font-bold font-mono text-sm dark:text-gray-500 text-gray-700">
-            Full Stack Developer From INDIA
+            Developer From INDIA
         </p>
     </div>
     <div class="m-7 mt-10 grid md:grid-cols-2 lg:m-10 lg:mt-6">
@@ -17,7 +17,7 @@
                 About me
             </h1>
             <p class="animate__animated animate__fadeInLeft font-body pt-2 font-bold font-mono text-sm dark:text-gray-500 text-gray-700">
-               A self-motivated and organised professional with a 2 of experience in It Field, who wants to be associated with an organisation that provides career development opportunities as a Frontend Developer and an environment to enable me to contribute to its growth. 
+               A self-motivated and organised professional with a 2 years of experience in It Field, who wants to be associated with an organisation that provides career development opportunities as a Frontend Developer and an environment to enable me to contribute to its growth. 
             </p>
         </div>
         <div class="lg:pt-8 m-1">

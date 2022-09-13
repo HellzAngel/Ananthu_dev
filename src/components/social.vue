@@ -26,14 +26,14 @@
                                       
                                      
                                 <div class="animate__animated animate__fadeInLeft mx-auto">
-                                     <a href="https://www.facebook.com/actionherorio">  
+                                     <a href="https://www.linkedin.com/in/ananthu-a-nair-bb1571175/"> 
                                         <img src="../assets/linked.svg" class="w-10 h-10 hover:animate-pulse">
                                     </a>
                                 </div>
                                  
                                 
                                 <div class="animate__animated animate__fadeInLeft ">
-                                    <a href="https://www.linkedin.com/in/ananthu-a-nair-bb1571175/">   
+                                    <a href="https://www.facebook.com/actionherorio">    
                                         <img src="../assets/facebook.svg" class=" w-10 h-10 hover:animate-pulse">
                                     </a>
                                 </div>
