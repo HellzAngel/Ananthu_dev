@@ -8,7 +8,7 @@
             Ananthu here,
         </p>
         <p class="animate__animated animate__fadeInDown font-body pt-2 font-bold font-mono text-sm dark:text-gray-500 text-gray-700">
-            Developer From INDIA
+            DEVELOPER FROM INDIA
         </p>
     </div>
     <div class="m-7 mt-10 grid md:grid-cols-2 lg:m-10 lg:mt-6">
