@@ -17,7 +17,7 @@
                 About me
             </h1>
             <p class="animate__animated animate__fadeInLeft font-body pt-2 font-bold font-mono text-sm dark:text-gray-500 text-gray-700">
-               A self-motivated and organised professional with a 2 years of experience in It Field, who wants to be associated with an organisation that provides career development opportunities as a Frontend Developer and an environment to enable me to contribute to its growth. 
+               A self-motivated and organised professional with a {{ TotalExp }} years of experience in It Field, who wants to be associated with an organisation that provides career development opportunities as a Frontend Developer and an environment to enable me to contribute to its growth. 
             </p>
         </div>
         <div class="lg:pt-8 m-1">
@@ -65,6 +65,12 @@
         </div>
     </div>
 </template>
-<style>
-    
-</style>
+<script>
+export default {
+  data() {
+    return {
+      TotalExp: new Date().getFullYear() - 2021, // 2020
+    };
+  }
+};
+</script>

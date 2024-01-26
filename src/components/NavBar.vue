@@ -14,6 +14,7 @@
         <router-link
           to="/Ananthu_dev/"
           class="
+            pix
             text-xl
             font-semibold 
             text-gray-100
@@ -110,3 +111,29 @@ export default {
   },
 };
 </script>
+<style>
+.pix{
+    position: relative;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: light 5s linear infinite;
+}
+@keyframes light {
+    0%, 18%, 20%, 50%, 60%, 65.1%, 80%, 90.1%, 92%{
+        text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%{
+        color: rgb(208, 208, 186);
+        text-shadow: 0 0 10px yellow,
+         0 0 20px yellow,
+         0 0 40px yellow,
+         0 0 80px yellow,
+         0 0 160px yellow;
+    }
+}
+</style>
