@@ -15,11 +15,13 @@
           to="/Ananthu_dev/"
           class="
             pix
+            ml-1
             text-xl
             font-semibold 
             text-gray-100
             md:text-2xl
           "
+          style="float: left;"
           >ANANTHU
         </router-link>
         <!-- Mobile menu button -->
@@ -118,7 +120,6 @@ export default {
     text-transform: uppercase;
     width: 100%;
     text-align: center;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
     line-height: 0.70em;
     outline: none;
     animation: light 5s linear infinite;
